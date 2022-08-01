@@ -1,4 +1,0 @@
-<Files ~ "\.wav$">  
-  Order Allow,Deny
-  Deny from All
-</Files>
