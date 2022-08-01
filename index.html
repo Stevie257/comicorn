@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
+ 
+<a onclick="myAudioFunction('A');">
+     <img src="comicorn.png">
+ </a>
 
-<a href="CORN.wav"><img src="comicorn.png" alt="comicorn" style="width: 315px; height: auto;"></a>
+ <script>
+     var aAudio = new Audio('CORN.wav');
 
-
+     function myAudioFunction(letter) {
+         if(letter == 'a') {
+             aAudio.play();
+         } 
+     }
+ </script>
 
 </html>
